@@ -16,15 +16,15 @@ public class binary_strings_without_consecutive_one
     }
     public static int consecutive_1s(int n)
     {
-        if(n==0)
+        if(n==0) 
         {
             return 0;
         }
-        if(n==1)
+        if(n==1) // n=1 , strings are 0 and 1
         {
             return 2;
         }
-        if(n==2)
+        if(n==2)  // n=2, strings are 00,01,10,11
         {
             return 3;
         }
